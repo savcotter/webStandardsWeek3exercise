@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'HelveticaThin';
+    src: url(../font/HelveticaNeueLTStd-Th.otf);
+}
+
+body {
+	font-family: 'HelveticaThin';
+	background-color: #aaa;
+	margin: 0px;
+	padding: 0px;
+}
+
+header h1{
+	margin-left: 20px;
+}
+
+header nav {
+	width: 100%;
+	display: inline-block;
+	background-color: #777;
+	margin: 0px;
+	padding: 0px;
+}
+
+header nav ul {
+	list-style-type: none;
+	margin-left: 20px;
+	padding: 0px;
+}
+
+header nav ul li {
+	height: 50px;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18pt;
+	vertical-align: center;
+	line-height: 50px;
+}
+
+header h2 {
+	margin-left: 20px;
+}
+
+#band nav {
+	margin: 0px;
+	padding: 0px;
+}
+
+#band nav ul {
+	list-style-type: none;
+	margin-left: 20px;
+	padding: 0px;
+}
+
+#band nav ul li {
+	height: 30px;
+}
+
+#band nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14pt;
+	vertical-align: center;
+	line-height: 50px;
+}
+
+#band p {
+	margin-left: 40px;
+}
+
+footer {
+	height: 100px;
+	width: 300px;
+	text-align: center;
+	margin: 20px auto;
+}
